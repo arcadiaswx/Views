@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dW1-Wg-Tq4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -108,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qj1-tz-s9I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="735"/>
+            <point key="canvasLocation" x="750" y="1036"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -123,13 +123,14 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="h62-bs-vWI" kind="relationship" relationship="viewControllers" id="WzW-9N-LoQ"/>
+                        <segue destination="dW1-Wg-Tq4" kind="relationship" relationship="viewControllers" id="KVP-Ex-QHe"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Main View-->
+        <!--Settings View-->
         <scene sceneID="kVf-QB-6Qz">
             <objects>
                 <viewController id="Rzi-41-Gnv" customClass="ViewController" customModule="Views" customModuleProvider="target" sceneMemberID="viewController">
@@ -160,14 +161,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dgN-2P-BvG"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Main View" id="skh-hZ-0DM"/>
+                    <navigationItem key="navigationItem" title="Settings View" id="skh-hZ-0DM"/>
                     <connections>
                         <segue destination="zHe-7i-xne" kind="show" identifier="showDetail" id="meF-sO-t0d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wza-TO-BB1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1602" y="2376"/>
+            <point key="canvasLocation" x="1777" y="1783"/>
         </scene>
         <!--DetailView-->
         <scene sceneID="btN-uW-Om8">
@@ -200,12 +201,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aym-zz-jVJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2536.8000000000002" y="2370.7646176911544"/>
+            <point key="canvasLocation" x="2678" y="1783"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="f9h-az-f0y">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dW1-Wg-Tq4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Nfe-8A-fo7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fvY-z1-Md2">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -218,7 +220,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gwn-SL-cLQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="662" y="2376"/>
+            <point key="canvasLocation" x="750" y="1784"/>
         </scene>
     </scenes>
     <resources>
